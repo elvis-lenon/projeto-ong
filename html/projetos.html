@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Projetos Sociais - ONG Esperança</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+
+    <header class="site-header">
+
+        <h1>ONG Esperança</h1>
+
+        <button
+            class="menu-toggle"
+            id="menuToggle"
+            type="button"
+            aria-controls="mainMenu"
+            aria-expanded="false">
+            ☰
+            <span class="sr-only">Abrir menu</span>
+        </button>
+
+        <nav class="navbar" aria-label="Navegação principal">
+
+            <ul class="nav-menu" id="mainMenu">
+
+                <li class="nav-item">
+                    <a href="index.html">Início</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="projetos.html">Projetos</a>
+
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="projetos.html#campanhas">Campanhas de doação</a>
+                        </li>
+
+                        <li>
+                            <a href="projetos.html#voluntariado">Voluntariado</a>
+                        </li>
+                    </ul>
+
+                </li>
+
+                <li class="nav-item">
+                    <a href="cadastro.html">Seja Voluntário</a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <section>
+            <h2>Nossos projetos sociais</h2>
+
+            <img
+                src="../imagens/projetos.jpg"
+                alt="Pessoas participando de uma ação social da ONG Esperança">
+
+            <p>
+                A ONG Esperança desenvolve projetos sociais voltados
+                para pessoas e comunidades em situação de vulnerabilidade.
+                As iniciativas são realizadas com o apoio de voluntários
+                e doadores.
+            </p>
+        </section>
+
+        <div class="alert alert-info" role="status">
+            <strong>Informação:</strong>
+            As campanhas de doação estão abertas para novos apoiadores.
+        </div>
+
+        <section>
+
+            <h2>Campanhas de doação</h2>
+
+            <article class="card">
+                <span class="badge badge-success">Projeto ativo</span>
+
+                <h3>Campanha de alimentos</h3>
+
+                <p>
+                    Arrecadamos alimentos para montar cestas básicas
+                    destinadas às famílias atendidas pela organização.
+                </p>
+
+            </article>
+
+            <article class="card">
+                <span class="badge badge-success">Projeto ativo</span>
+
+                <h3>Campanha de materiais escolares</h3>
+
+                <p>
+                    Reunimos materiais escolares para auxiliar crianças
+                    e adolescentes em suas atividades educacionais.
+                </p>
+
+            </article>
+
+        </section>
+
+        <section>
+
+            <h2>Projetos de voluntariado</h2>
+
+            <article class="card">
+                <span class="badge badge-success">Projeto ativo</span>
+
+                <h3>Ações comunitárias</h3>
+
+                <p>
+                    Os voluntários podem participar de atividades
+                    comunitárias, auxiliando na organização e realização
+                    das ações sociais.
+                </p>
+
+            </article>
+
+            <article class="card">
+                <span class="badge badge-success">Projeto ativo</span>
+
+                <h3>Atividades educativas</h3>
+
+                <p>
+                    Voluntários também podem colaborar com atividades
+                    educativas e de apoio às crianças e adolescentes.
+                </p>
+
+            </article>
+
+        </section>
+
+        <section>
+
+            <h2>Como participar</h2>
+
+            <p>
+                Existem diferentes formas de contribuir com o trabalho
+                da ONG Esperança.
+            </p>
+
+            <ol>
+                <li>Escolha uma forma de participação.</li>
+                <li>Preencha seus dados na página de cadastro.</li>
+                <li>Aguarde o contato da equipe da ONG.</li>
+            </ol>
+
+            <p>
+                <a href="cadastro.html">
+                    Quero participar
+                </a>
+            </p>
+
+            <button type="button" class="toast-button" id="toastButton">
+                Mostrar mensagem
+            </button>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <p>
+            &copy; 2026 ONG Esperança. Todos os direitos reservados.
+        </p>
+
+    </footer>
+
+    <div
+        id="toast"
+        class="toast"
+        role="status"
+        aria-live="polite"
+        aria-hidden="true">
+
+        Cadastro iniciado com sucesso!
+    </div>
+
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
